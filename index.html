@@ -125,6 +125,8 @@
     <h1>Take these</h1>
 
     <img src="earphones.png">
+
+    <button onclick="download()">Download</button>
 </section>
 
 <script>
@@ -136,6 +138,10 @@
             document.getElementById('loading').style.display = 'none'
             document.getElementById('earbuds').style.display = 'flex'
         }, 3000)
+    }
+
+    const download = () => {
+        document.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
     }
 </script>
 
